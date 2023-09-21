@@ -1,0 +1,181 @@
+#WelcomeDiv {
+    margin-top: 6vh;
+    margin-left: 10vw;
+    display: flex;
+    gap: 17vw;
+}
+
+#TopContainerWelcome {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  
+}
+
+#TopContainerWelcome h1 {
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 52.51px;
+    padding-bottom: 10px;
+}
+
+#TopContainerWelcome span {
+    display: block;
+    font-weight: 400;
+    font-size: 14px;
+    margin-bottom: 25px;
+  
+}
+
+
+#Or {
+    border-bottom: 1px solid #EDEDED;
+    width: 355px;
+    display: flex;
+    justify-content: center;
+    height: 30px;
+    margin-bottom: 24px;
+}
+
+
+#Or p {
+    font-weight: 400;
+    font: 14px;
+    line-height: 16.71px;
+    background-color: white;
+    position: relative;
+    bottom: 18px;
+    padding: 8px;
+}
+
+#AutoLoginDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+
+
+.wrapperInputs::placeholder {
+    padding-left: 10px;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16.71px;
+    color: #C1C1C1;
+
+}
+
+.wrapperAutoLogin{
+    width: 355px;
+    height: 43px;
+    border-radius: 12px; 
+    border: 1px solid #EDEDED;
+    font-weight: bold;
+    background-color: rgba(255, 255, 255, 1);
+    font-size: 14px;
+    line-height: 16.71px;
+    margin-top: -15px;
+
+}
+
+.wrapperAutoLogin:hover {
+    cursor: pointer;
+    background-color: rgb(253, 250, 247);
+}
+
+.wrapperLogoGoogle {
+    position: relative;
+    top: 22px;
+    right: 100px;
+}
+
+.wrapperLogoFace {
+    position: relative;
+    top: 22px;
+    right: 105px;
+}
+
+.wrapperLogoApple {
+    position: relative;
+    top: 21px;
+    right: 90px;
+}
+
+
+#AutoLoginDiv p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16.71px;
+    margin-top: 34px;
+}
+
+#AutoLoginDiv a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.registerInputs {
+    margin-left: 4vw;
+}
+
+.name{
+    font-size: 14px;
+    color: black;
+    font-weight: bold;
+    line-height: 17px;
+    margin-bottom: 5px;
+  
+}
+
+.wrapperInputs {
+    width: 345px;
+    height: 43px;
+    border-radius: 12px;
+    border: 1px solid #EDEDED;
+    padding-left: 10px;
+    margin-bottom: 18px;
+}
+
+#buttonContinue {
+    width: 355px;
+    height: 43px;
+    background-color: #538AF7;
+    color: white;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16.71px;
+    border-radius: 12px;
+    border: none;
+}
+
+#buttonContinue:hover {
+    cursor: pointer;
+    background-color: #2d70f7;
+}
+
+#divProgress {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.progress {
+    background-color: #EDEDED;
+    margin-top: 25px;
+    margin-left: 10px;
+    border-radius: 50%;
+    height: 12px;
+    width: 12px;
+}
+
+#actualProgress {
+    width: 24px;
+    background-color: #2d70f7;
+    border-radius: 10px;
+}
+
+.photo {
+    margin-right: 10vw;
+}
