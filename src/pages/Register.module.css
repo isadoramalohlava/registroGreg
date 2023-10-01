@@ -1,8 +1,10 @@
 #WelcomeDiv {
     margin-top: 6vh;
     margin-left: 10vw;
+    width: 90%;
+    height: 500px;
     display: flex;
-    gap: 17vw;
+    gap: 10vw;
 }
 
 #TopContainerWelcome {
@@ -178,4 +180,12 @@
 
 .photo {
     margin-right: 10vw;
+}
+
+.error {
+    border: 1px solid red;
+}
+
+.sucess {
+    border: 1px solid green;
 }
